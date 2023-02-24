@@ -1,0 +1,110 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  fieldOfView 0.8
+  orientation 0.3709879802935554 0.7364541785855837 0.5656882191822115 4.041469639088972
+  position -6.905180864700557 26.805716573378497 -6.092530085711585
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 15 15
+  floorAppearance Parquetry {
+    type "light strip"
+    colorOverride 1 0.8 0.8
+  }
+  wallThickness 0.05
+  wallHeight 2
+  wallAppearance BrushedAluminium {
+    colorOverride 0 0 0
+    IBLStrength 5
+  }
+}
+SolidPipe {
+  translation -4 0 3
+  name "HinderPipe1"
+  radius 2.5
+}
+DirectionalLight {
+  ambientIntensity 1
+  direction 0 -1 0
+}
+AdvertisingBoard {
+  translation -5.51385 1.6 -5.31227
+  name "Hinder advertising board1"
+}
+Pioneer3at {
+  translation 3 0 4
+  rotation -1 0 0 1.57
+  name "my_robot"
+  controller "my_controller"
+  controllerArgs [
+    ""
+  ]
+  supervisor TRUE
+  extensionSlot [
+    GPS {
+    }
+  ]
+}
+AdvertisingBoard {
+  translation 3.53 1.6 -6
+  rotation 0 1 0 2.5
+  name "Hinder advertising board2"
+}
+AdvertisingBoard {
+  translation 2 1.6 6
+  rotation 0 1 0 2.5
+  name "Hinder advertising board2(1)"
+}
+SolidRoundedBox {
+  translation -2.37988 1.42109e-14 -4.17137
+  rotation 0 1 0 1
+  name "Hinder rounded box1"
+  size 4 2 3
+}
+SolidTorus {
+  translation 3 0 0
+  name "Hinder torus1"
+}
+TiagoIron {
+  translation -1.51932 0.0950002 7.2
+  rotation 0.5763739555022033 0.5763729555022804 0.5792989552763844 -2.0958653071795865
+  controller "hinder_controller"
+  supervisor TRUE
+}
+TiagoIron {
+  translation 5 0.095 6.1
+  rotation -0.5773509358554485 0.5773509358554485 0.5773489358556708 2.0944
+  name "TIAGo Iron(4)"
+  controller "hinder_controller"
+  supervisor TRUE
+}
+TiagoIron {
+  translation -6 0.095 -3
+  rotation 0.8628565621288802 0.35740681862788 0.3574058186283875 -1.7177753071795863
+  name "TIAGo Iron(3)"
+  controller "hinder_controller"
+  controllerArgs [
+    ""
+  ]
+  supervisor TRUE
+}
+TiagoIron {
+  translation -1 0.095 0
+  rotation 0.6776620723211167 -0.5199880554939083 -0.5199870554938015 -1.950445307179586
+  name "TIAGo Iron(1)"
+  controller "hinder_controller"
+  supervisor TRUE
+}
+TiagoIron {
+  translation 0 0.095 -7
+  rotation -0.8628577427683395 -0.3574078934510043 -0.357401893452793 1.71777
+  name "TIAGo Iron(2)"
+  controller "hinder_controller"
+  supervisor TRUE
+}
