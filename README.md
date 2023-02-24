@@ -52,7 +52,9 @@ Webots R2021 b	（推荐2020-2021的，过早的版本没有supervisor对象，�
 
 如果出现编译错误请自行查看环境配置是否无误。假若找不到controller，请自行将先锋小车的controller改为./机器人避障 人工势场法/robot_pro/controller/my_controller/my_controller.py，TIAGo Iron的controller改为./机器人避障 人工势场法/robot_pro/controller/hinder_controller/hinder_controller.py
 
-
+效果（详情下载项目解析文件）：
+<br>
+![image](https://github.com/GREATCJZ/Intelligent-robot-simulation/blob/main/figure/8.jpg)
 
 ##### 对栅格避障控制法进行仿真
 
@@ -61,3 +63,11 @@ Webots R2021 b	（推荐2020-2021的，过早的版本没有supervisor对象，�
 程序将自动开启仿真。
 
 如果出现编译错误请自行查看环境配置是否无误。假若找不到controller，请自行将e-puck的controller改为./机器人避障 人工势场法/robot_pro/controller/e_puck_controller/e_puck_controller.py
+
+效果（详情下载项目解析文件）：
+<br>
+![image](https://github.com/GREATCJZ/Intelligent-robot-simulation/blob/main/figure/14.png)
+<br>
+![image](https://github.com/GREATCJZ/Intelligent-robot-simulation/blob/main/figure/15.png)
+<br>
+![image](https://github.com/GREATCJZ/Intelligent-robot-simulation/blob/main/figure/16.png)
